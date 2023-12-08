@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gjeje Numrin</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1 class="titulli">Gjeje Numrin</h1>
+  <p class="nentitulli">JavaScript ka menduar nje numer. Shkruaj nje numer
+    nga 1 deri ne 100 dhe javascript do te te
+    tregoje a e ke gjetur.
+  </p>
+  <div class="mbeshtjellesi">
+    <form>
+      <label for="numri" class="label">
+        Shkruaj nje numer (1-100):
+      </label>
+      <input type="number" id="numri" class="input" min="1" max="100">
+      <div class="butonat">
+        <button id="provo-btn" type="submit">
+          Provo
+        </button>
+        <button id="rifillo-btn">
+          Luaj Perseri
+        </button>
+      </div>
+    </form>
+    <div class="rezultati">
+      <p id="teksti-provo"></p>
+      <p>
+        Ke provuar numrat: 
+        <span id="historia-numrave"></span>
+      </p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
